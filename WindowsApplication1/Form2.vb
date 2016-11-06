@@ -116,7 +116,13 @@ Public Class Form2
 
 
 
-
+        If My.Settings.Hello = "2wwlol" Then
+            'MsgBox("1")
+            Label3.Enabled = True
+            Label3.Show()
+            Label3.ForeColor = Color.Maroon
+            Label1.Text = "สวัสดีค่ะมาสเตอร วันนี้วันที่ " + currentdate + vbNewLine + "เเละตอนนี้เวลา " + currenttime + " ค่ะ" + vbNewLine + "วันนี้โปรดโค้ดต่อให้เสร็จด้วยค่ะ"
+        End If
 
 
         If My.Settings.Hello = "สวัสดีค่ะมาสเตอร์ AsLupin วันนี้โปรดโค้ดต่อให้เสร็จด้วยค่ะ" Then
